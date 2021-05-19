@@ -1,0 +1,12 @@
+rootProject.name = 'java-gyak-template'
+
+(1..10).each {
+    if(file(it.toString()).isDirectory()) {
+        include ':1'
+        include ':2'
+        include ':3'
+        include ':4'
+        include ':5'
+        include ':6'
+    }
+}
